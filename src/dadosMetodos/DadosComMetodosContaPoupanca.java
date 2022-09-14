@@ -1,6 +1,6 @@
 package dadosMetodos;
 
-public class DadosContaPoupanca {
+public class DadosComMetodosContaPoupanca {
 
 	private String titular = "Vinicius";
 	private String agencia = "Nubank";
