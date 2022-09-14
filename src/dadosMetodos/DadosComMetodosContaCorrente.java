@@ -40,7 +40,7 @@ public class DadosComMetodosContaCorrente {
 		System.out.print("Digite o valor a ser sacado: ");
 		double valorSaque = scanner.nextDouble();
 		if (valorSaque > getSaldo()) {
-			System.out.println("\nSaldo insufisciente tente novamente...\n");
+			System.out.println("\nSaldo insuficiente tente novamente...\n");
 			sacar();
 		} else {
 			double saldoFinal = getSaldo() - valorSaque;
